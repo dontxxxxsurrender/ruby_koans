@@ -450,7 +450,8 @@ ENDTEXT
       end
       self
     end
-
+    
+    
     # Class methods for the Neo test suite.
     class << self
       def inherited(subclass)

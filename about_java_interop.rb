@@ -65,7 +65,7 @@ class AboutJavaInterop < Neo::Koan
     ruby_string = "A Java String"
     java_string = java.lang.String.new(ruby_string)
     assert_equal __, java_string.is_a?(java.lang.String)
-    assert_equal __, java_string.is_a?(String)
+    assert_equal _, java_string.is_a?(String)
   end
 
   def test_java_strings_can_be_compared_to_ruby_strings_maybe
